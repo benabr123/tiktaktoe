@@ -4,6 +4,7 @@ from tkinter import messagebox
 
 # Tic Tac Toe game
 def restart():
+
     global count, turn, btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, text, b_restart, b_quit
 
     btn1.grid(row=0, column=1)  # white
